@@ -26,4 +26,22 @@ $ (document).ready(function() {
     $("body").removeClass();
     $("body").addClass("grey-background");
   });
-})
+});
+
+$(document).ready(function() {
+$("button#hello").click(function() {
+  $("ul").prepend("<li>Hello!</li>");
+});
+});
+
+$(document).ready(function() {
+$("button#goodbye").click(function() {
+  $("ul").prepend("<li>Bye!</li>");
+});
+});
+
+$(document).ready(function() {
+$("button#stop").click(function() {
+  $("ul").prepend("<li>Stop!</li>");
+});
+});
