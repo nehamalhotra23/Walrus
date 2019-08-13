@@ -12,3 +12,17 @@ $(document).ready(function() {
 
 });
 });
+
+$ (document).ready(function() {
+  $("button#blueButton").click(function(){
+    $("body").removeClass();
+    $("body").addClass("blue-background");
+  });
+})
+
+$ (document).ready(function() {
+  $("button#greyButton").click(function(){
+    $("body").removeClass();
+    $("body").addClass("grey-background");
+  });
+})

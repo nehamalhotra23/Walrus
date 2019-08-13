@@ -5,10 +5,20 @@
 .clickable {
   color: blue;
 }
-#baby-fox1 {
+#baby-fox2 {
   display:none;
 }
 
 .pic2{
   color: red;
+}
+
+.grey-background {
+  background-color: grey;
+}
+.buttons {
+  margin-top: 10px;
+}
+.blue-background {
+  background-color: #AEEEEE;
 }
