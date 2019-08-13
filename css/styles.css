@@ -1,3 +1,14 @@
 #fox-showing {
   display: none;
 }
+
+.clickable {
+  color: blue;
+}
+#baby-fox1 {
+  display:none;
+}
+
+.pic2{
+  color: red;
+}
