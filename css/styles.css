@@ -18,7 +18,15 @@
 }
 .buttons {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .blue-background {
   background-color: #AEEEEE;
+}
+.par2:hover {
+  color: red;
+  border: solid;
+  padding: 10px;
+  border-radius: 10%;
+
 }

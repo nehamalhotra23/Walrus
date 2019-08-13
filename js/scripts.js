@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
+    $("#p1").fadeToggle();
     $("#fox-hidden").fadeToggle();
     $("#fox-showing").fadeToggle();
   });
